@@ -1,0 +1,59 @@
+
+/* Start Global */
+body{
+
+}
+
+
+/* End Global */
+
+/* Start Gallary */
+.big-heading {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  font-family: "Robot-Bold";
+  z-index: auto;
+  position: relative;
+}
+.big-heading {
+  color: #2f4993;
+  font-size: 34px;
+  text-align: center;
+}
+.big-heading::after {
+  content: "";
+  position: absolute;
+  width: 55px;
+  left: 0;
+  right: 0;
+  bottom: 13px;
+  height: 3px;
+  margin: auto;
+  background: #edb730;
+}
+.our-gallary .picture {
+  margin-top: 50px;
+}
+ .picture .container .row{
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+div {
+  display: block;
+}
+ * {
+   box-sizing: border-box;
+ }
+
+
+
+/* End Gallary */
+
+/* Start My Framework */
+.clearfix {
+  clear: both;
+}
+/* End My Framework */
